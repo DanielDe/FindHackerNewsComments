@@ -1,0 +1,32 @@
+.results-container {
+  width: 400px;
+
+  padding-left: 10px;
+}
+
+.results-container a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.result:not(:last-of-type) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid lightgray;
+}
+
+.result__title {
+  font-size: 16px;
+
+  color: blue;
+}
+
+.result__metadata-container {
+  display: flex;
+}
+
+.result__metadata-separator {
+  margin-left: 8px;
+  margin-right: 8px;
+}
